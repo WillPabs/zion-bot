@@ -41,8 +41,8 @@ async def on_message(message):
             await message.channel.send(f"""Hi, {str(message.author).split("#")[0]}!""")
         elif content == "!users":
             await message.channel.send(f"""# of Members: {server.member_count}""")
-        elif content == "!whoisgay":
-            await message.channel.send(f"""@{members_objects[1]} is some flaming hot cheetos LGBTOBGYN herb""")
+        elif content == "!whoisgod":
+            await message.channel.send(f"""@{members_objects[0]} is the Almighty, Omnipotent, Omniscient overlord""")
         elif content == "!commands":
             await message.channel.send(commands)
         else:

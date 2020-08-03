@@ -1,0 +1,4 @@
+!hello
+!users
+!whoisgod
+!commands
